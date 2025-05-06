@@ -1,5 +1,5 @@
 function runTypingEffect() {
-  const text = 'I am Brad Traversy.';
+  const text = 'Welcome to Design Factory TT.';
   const typingElement = document.getElementById('typing-text');
   const typingDelay = 100;
 
