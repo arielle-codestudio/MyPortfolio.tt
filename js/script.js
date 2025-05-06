@@ -1,15 +1,15 @@
 function runTypingEffect() {
-  const text = 'Welcome to Design Factory.'
-  const runTypingElement = document.getElementById('typing-text');
+  const text = 'I am Brad Traversy.';
+  const typingElement = document.getElementById('typing-text');
   const typingDelay = 100;
 
-  typeText(text, runTypingElement, typingDelay);
+  typeText(text, typingElement, typingDelay);
 }
 
-function typeText(text, runTypingElement, delay) {
+function typeText(text, typingElement, delay) {
   for (let i = 0; i < text.length; i++) {
-    setTimeout(() => { 
-      runTypingElement.textContent += text.charAt(i);
+    setTimeout(() => {
+      typingElement.textContent += text.charAt(i);
     }, delay * i);
   }
 }
